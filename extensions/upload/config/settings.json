@@ -1,0 +1,13 @@
+{
+  "provider": "cloudinary",
+  "providerOptions": {
+    "cloud_name": "ute-thong",
+    "api_key": "638795779295873",
+    "api_secret": "p8Z3zwXgWnrZmauE2Agxw3uWXzA"
+  },
+  "actionOptions": {
+    "upload": {
+      "folder": "dns"
+    }
+  }
+}
