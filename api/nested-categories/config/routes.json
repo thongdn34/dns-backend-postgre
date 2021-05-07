@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/nested-categories",
+      "handler": "nested-categories.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nested-categories/count",
+      "handler": "nested-categories.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/nested-categories/:id",
+      "handler": "nested-categories.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/nested-categories",
+      "handler": "nested-categories.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/nested-categories/:id",
+      "handler": "nested-categories.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/nested-categories/:id",
+      "handler": "nested-categories.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

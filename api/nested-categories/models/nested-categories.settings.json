@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nestedCategories",
+  "info": {
+    "name": "Nested Categories"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Sub_subcategorys": {
+      "type": "string",
+      "required": true
+    },
+    "translatedName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
